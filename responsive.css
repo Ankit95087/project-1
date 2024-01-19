@@ -1,0 +1,655 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .first-nav h1 {
+        font-size: 20px;
+        line-height: 2;
+    }
+
+    .second-nav {
+        display: none;
+    }
+
+    .third-nav {
+        font-size: 14px;
+        line-height: 3;
+    }
+
+    /* dropdown start */
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 300px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        padding: 12px 16px;
+        z-index: 1;
+        margin-right: 100px;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    .dropdown-content ul a {
+        text-decoration: none;
+    }
+
+    /* bannar start */
+
+    .bannar-first h1 {
+
+        letter-spacing: 2px;
+        font-size: 30px;
+        line-height: 5;
+    }
+
+    .bannar-first p {
+        font-size: 18px;
+        width: 80%;
+    }
+
+    .bannar-second #first-button {
+        font-size: 18px;
+        background-color: #ee8f67;
+        color: white;
+        width: 30%;
+        height: 60px;
+        margin-right: 5%;
+    }
+    
+    .bannar-second #second-button {
+        font-size: 18px;
+        background-color: #ee8f67;
+        color: white;
+        width: 30%;
+        height: 60px;
+        margin-left: 5%;
+    }
+    /* about us section start */
+    .aboutus h3 {
+        width: 80%;
+        font-size: 16px;
+    }
+
+    .aboutus-2 {
+        flex-direction: column;
+
+    }
+
+    .aboutus-left {
+        width: 80%;
+        margin: auto;
+    }
+
+    .aboutus-right {
+        width: 80%;
+        margin: auto;
+    }
+
+    /* next section start */
+    .desine-parent {
+        flex-direction: column;
+
+    }
+    .desine-child.desine-child1 {
+        padding-bottom: 10px;
+    }
+
+    .mission-parrent {
+        flex-direction: column;
+    }
+
+    .mission-child-1 {
+        width: 80%;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .mission-child-2 {
+        width: 80%;
+        justify-content: center;
+        margin: auto;
+        padding: 0;
+        margin-top: 50px;
+    }
+
+    .mission-child-3 {
+        width: 80%;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .iteam-parent {
+        flex-direction: column;
+    }
+    .iteam-child {
+        display: inline;
+        padding-bottom: 30px;
+    }
+    .iteam-image img {
+        width: 100%;
+        margin: auto;
+    }
+
+    .services-div h4 {
+        font-size: 16px;
+        width: 80%;
+    }
+
+    .service-parent {
+        flex-direction: column;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
+    .service-child p {
+        margin-bottom: 20px;
+        text-align: left;
+        height: 120px;
+    }
+
+    .service-left {
+        width: 80%;
+        margin-left: 0px;
+    }
+
+    .service-middle {
+        width: 80%;
+        margin-left: 0px;
+    }
+
+    .service-right {
+        width: 80%;
+        margin-left: 0px;
+    }
+
+    /* next section start here */
+    .blog-post-1 h3 {
+        font-size: 16px;
+        width: 82%;
+    }
+
+    .blog-parent {
+        flex-direction: column;
+    }
+
+    .blog-child {
+        width: 100%;
+        padding-bottom: 20px;
+        margin-bottom: 30px;
+    }
+
+    .touch-child-1 h2 {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .touch-parent {
+        flex-direction: column;
+    }
+
+    .touch-child {
+        width: 80%;
+    }
+
+    .touch-child-content-2 {
+        padding: 0;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+
+    .footer-div-1,
+    .footer-div-2 {
+        width: 100%;
+
+    }
+
+    .footer-child {
+        width: 100%;
+        padding-bottom: 40px;
+    }
+
+    .footer-parent-2 {
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+        width: 100%;
+    }
+
+    .footer-left {
+        float: none;
+        padding-left: 30%;
+
+    }
+
+    .footer-right {
+        float: none;
+
+        color: #fafafa;
+        padding-right: 0%;
+        font-size: 16px;
+        padding-top: 0px;
+
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .first-nav h1 {
+        font-size: 20px;
+        line-height: 4;
+    }
+
+    .second-nav {
+        display: none;
+    }
+
+    /* dropdown start */
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 300px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        padding: 12px 16px;
+        z-index: 1;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    /* bannar start */
+    .bannar-first h1 {
+
+        letter-spacing: 3px;
+        font-size: 50px;
+        line-height: 7;
+    }
+
+    .bannar-first p {
+        font-size: 18px;
+        width: 80%;
+    }
+
+    /* about us section stert  */
+    .aboutus h3 {
+        width: 80%;
+        font-size: 16px;
+    }
+
+    .aboutus-2 {
+        flex-direction: column;
+
+    }
+
+    .aboutus-left {
+        width: 80%;
+        margin: auto;
+    }
+
+    .aboutus-right {
+        width: 80%;
+        margin: auto;
+    }
+
+    /* next seacation start */
+    .mission-parrent {
+        flex-direction: column;
+    }
+
+    .mission-child-1 {
+        width: 80%;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .mission-child-2 {
+        width: 80%;
+        justify-content: center;
+        margin: auto;
+        padding: 0;
+        margin-top: 50px;
+    }
+
+    .mission-child-3 {
+        width: 80%;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .services-div h4 {
+        font-size: 16px;
+        width: 80%;
+    }
+
+    .service-parent {
+        flex-direction: column;
+    }
+
+    .service-left {
+        width: 80%;
+    }
+
+    .service-middle {
+        width: 80%;
+    }
+
+    .service-right {
+        width: 80%;
+    }
+
+    .blog-post-1 h3 {
+        font-size: 16px;
+        width: 82%;
+    }
+
+    .blog-parent {
+        flex-direction: column;
+    }
+
+    .blog-child {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+    .footer {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .footer-div-1,
+    .footer-div-2 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .footer-child {
+        width: 80%;
+        margin: auto;
+
+
+
+    }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .first-nav h1 {
+        font-size: 20px;
+        line-height: 4;
+    }
+
+    .second-nav {
+        display: block;
+    }
+
+    .second-nav ul li {
+        margin-left: 12px;
+        font-size: 16px;
+        line-height: 5;
+    }
+
+    .third-nav {
+        display: none;
+    }
+
+    .dropdown {
+        display: none;
+    }
+
+    /* bannar start here */
+    .bannar-first h1 {
+
+        letter-spacing: 4px;
+        font-size: 55px;
+        line-height: 5;
+    }
+
+    .bannar-first p {
+        font-size: 18px;
+        width: 60%;
+    }
+
+    /* about us start */
+    .aboutus h3 {
+        width: 80%;
+        font-size: 18px;
+    }
+
+    .aboutus-2 {
+        flex-direction: column;
+
+    }
+
+    .aboutus-left {
+        width: 80%;
+        margin: auto;
+    }
+
+    .aboutus-right {
+        width: 80%;
+        margin: auto;
+        padding: 0;
+    }
+
+    /* naxt section start */
+    .services-div h4 {
+        font-size: 18px;
+        width: 80%;
+    }
+
+    .service-parent {
+        flex-direction: row;
+    }
+
+    .service-left {
+        width: 30%;
+    }
+
+    .service-middle {
+        width: 30%;
+    }
+
+    .service-right {
+        width: 30%;
+    }
+
+    .blog-post-1 h3 {
+        font-size: 16px;
+        width: 80%;
+    }
+
+    .blog-parent {
+        flex-direction: row;
+    }
+
+    .blog-child {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .first-nav h1 {
+        font-size: 28px;
+        line-height: 3;
+    }
+
+    .second-nav {
+        display: block;
+    }
+
+    .second-nav ul li {
+        margin-left: 12px;
+        font-size: 16px;
+        line-height: 5;
+    }
+
+    .third-nav {
+        display: block;
+    }
+
+    .third-nav i {
+        margin-left: 8px;
+    }
+
+    .dropdown {
+        display: none;
+    }
+
+    /* bannar start  */
+    .bannar-first h1 {
+
+        letter-spacing: 5px;
+        font-size: 70px;
+        line-height: 5;
+    }
+
+    .bannar-first p {
+        width: 40%;
+    }
+
+    /* about us section start */
+    .aboutus h3 {
+        width: 60%;
+        font-size: 18px;
+    }
+
+    .aboutus-2 {
+        flex-direction: row;
+
+    }
+
+    .aboutus-left {
+        width: 53%;
+        margin: auto;
+    }
+
+    .aboutus-right {
+        width: 45%;
+        margin: auto;
+        padding-left: 2%;
+    }
+
+    /* naxt section start */
+    .mission-parrent {
+        flex-direction: row;
+    }
+
+    .mission-child-1 {
+        width: 35%;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .mission-child-2 {
+        width: 25%;
+        justify-content: center;
+        margin: auto;
+        padding-left: 10%;
+    }
+
+    .mission-child-3 {
+        width: 25%;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .footer {
+        flex-direction: row;
+    }
+
+    .footer-div-1,
+    .footer-div-2 {
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+        justify-content: center;
+        width: 50%;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .first-nav h1 {
+        font-size: 28px;
+        line-height: 3;
+    }
+
+    .second-nav {
+        display: block;
+    }
+
+    .second-nav ul li {
+        margin-left: 20px;
+        font-size: 20px;
+        line-height: 4;
+    }
+
+    .third-nav {
+        display: block;
+    }
+
+    .third-nav i {
+        margin-left: 12px;
+    }
+
+    /* dropdown start */
+    .dropdown {
+        display: none;
+    }
+
+    .bannar-first h1 {
+
+        letter-spacing: 5px;
+        font-size: 70px;
+        line-height: 5;
+    }
+
+    .bannar-first p {
+        width: 40%;
+    }
+
+    /* about us sestion atart here */
+    .aboutus h3 {
+        width: 40%;
+        font-size: 18px;
+    }
+
+    .aboutus-2 {
+        flex-direction: row;
+
+    }
+
+    .aboutus-left {
+        width: 53%;
+        margin: auto;
+    }
+
+    .aboutus-right {
+        width: 45%;
+        margin: auto;
+        padding-left: 2%;
+    }
+
+    /* next section start here */
+}
