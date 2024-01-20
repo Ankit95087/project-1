@@ -855,6 +855,9 @@ footer{
     
 
 }
+.footer-child p{
+    font-size: 16px;
+}
 .footer-right i{
     font-size: 16px;
 }
