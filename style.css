@@ -91,6 +91,7 @@ nav {
     background-repeat: no-repeat;
     line-height: 2;
     background-position: center;
+    padding-top: 50px;
     
    
 }
@@ -112,7 +113,7 @@ nav {
 
     letter-spacing: 5px;
     font-size: 70px;
-    line-height: 4;
+    line-height: 3;
 }
 
 .bannar-first p {
