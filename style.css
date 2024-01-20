@@ -609,7 +609,7 @@ font-size: 38px;
 .blog-image h6{
     position: absolute;
     top: 20px;
-    right: 20px;
+    right: 5%;
     width: auto;
     height: auto;
     padding: 5px;
